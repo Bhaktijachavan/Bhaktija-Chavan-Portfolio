@@ -1,0 +1,58 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+:root {
+  --primary-color: #b206c1;
+  --secondary-color: #0bc1e1;
+  --background-color: #0e110d;
+  --text-color: #ffffff;
+  --gradient: linear-gradient(135deg, #b206c1, #0bc1e1);
+  --text-gradient:linear-gradient(45deg, #b206c1 30%, #0bc1e1 40%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Slick dots customization */
+.slick-dots li button:before {
+  color: var(--secondary-color); /* inactive dot color */
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primary-color); /* active dot color */
+  opacity: 1;
+}
