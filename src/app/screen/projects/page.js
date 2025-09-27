@@ -16,8 +16,8 @@ const projects = [
       + "Optimized for performance and accessibility.",
     role: "Designed UI, implemented pages, integrated contact form.",
     tech: ["Next.js", "Material-UI", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://your-portfolio-demo.com",
+    github: "https://github.com/Bhaktijachavan/Portfolio.git",
+    demo: "https://bhaktija-chavan-portfolio.vercel.app/",
   },
   {
     name: "Task Manager",
@@ -29,8 +29,8 @@ const projects = [
       + "Helps teams stay organized and productive with a clear project overview.",
     role: "Built task CRUD operations and authentication system.",
     tech: ["Next.js", "Express.js", "MongoDB"],
-    github: "https://github.com/yourusername/taskmanager",
-    demo: "https://your-taskmanager-demo.com",
+    // github: "https://github.com/yourusername/taskmanager",
+    // demo: "https://your-taskmanager-demo.com",
   },
   {
     name: "Home Inspection Software",
@@ -42,8 +42,8 @@ const projects = [
       + "Ensures efficiency and accuracy in generating structured inspection reports.",
     role: "Developed template system and integrated inspection features.",
     tech: ["Electron.js", "React.js", "Node.js"],
-    github: "https://github.com/yourusername/macj",
-    demo: "https://your-macj-demo.com",
+    // github: "https://github.com/yourusername/macj",
+    // demo: "https://your-macj-demo.com",
   },
 ];
 
