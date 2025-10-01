@@ -112,7 +112,16 @@ export default function ContactSection({
             component={Link}
             href={linkedin}
             target="_blank"
-            sx={{ fontSize: { xs: 28, sm: 32 } }}
+            sx={{
+            background: "var(--gradient)",
+            color: "#fff",
+            borderRadius: "30px",
+            px: { xs: 2, sm: 3 },
+            py: { xs: 0.8, sm: 1 },
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem" },
+            fontWeight: 600,
+            "&:hover": { opacity: 0.9, color: "#fff" },
+          }}
           >
             <LinkedInIcon fontSize="inherit" />
           </IconButton>
@@ -120,7 +129,16 @@ export default function ContactSection({
             component={Link}
             href={github}
             target="_blank"
-            sx={{ fontSize: { xs: 28, sm: 32 } }}
+            sx={{
+            background: "var(--gradient)",
+            color: "#fff",
+            borderRadius: "30px",
+            px: { xs: 2, sm: 3 },
+            py: { xs: 0.8, sm: 1 },
+            fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem" },
+            fontWeight: 600,
+            "&:hover": { opacity: 0.9, color: "#fff" },
+          }}
           >
             <GitHubIcon fontSize="inherit" />
           </IconButton>
